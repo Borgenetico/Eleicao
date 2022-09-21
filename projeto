@@ -1,0 +1,38 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	
+	//faça um algoritmo para calcular a porcentagem de votos de uma eleição num municipio.
+	float eleitores, branco, nulo, valid, municipio, porcentagem;
+	
+	municipio;
+	eleitores;
+	branco;
+	nulo;
+	valid;
+	
+	cout<<"insira o numero da populacao do municipio";
+	cin>>municipio;
+	cout<<"insira o numero de eleitores";
+	cin>>eleitores;
+	cout<<"insira o numero de votos brancos";
+	cin>>branco;
+	cout<<"insira o numero de votos nulos";
+	cin>>nulo;
+	cout<<"insira o numero dde votos validos";
+	cin>>valid;
+						
+						
+	
+	
+	branco = branco * 100/eleitores;
+	nulo = nulo * 100/eleitores;
+	valid = valid * 100/eleitores;
+	
+	cout<<branco<<endl;	
+	cout<<nulo<<endl;
+	cout<<valid<<endl;
+	
+}
